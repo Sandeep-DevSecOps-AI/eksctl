@@ -6,7 +6,7 @@ metadata:
   region: us-east-1
 
 managedNodeGroups:
-  - name: Spot
+  - name: spot
     instanceTypes: ["c7i-flexi.large","m7i-flexi.large"]
-    spot: ture
+    spot: true
     desiredCapacity: 2
